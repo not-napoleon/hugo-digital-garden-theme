@@ -23,7 +23,7 @@
     <link rel="stylesheet" type="text/css" href="/css/my_style.css">
     <!-- Enable KaTeX -->
     {{ if .Params.math }}
-    {{ partial "partials/helpers/katex.html" .}}
+    {{ partial "helpers/katex.html" .}}
     {{ end }}
     <!-- Site Title -->
     {{ $title := print .Site.Title " | " .Title }}
